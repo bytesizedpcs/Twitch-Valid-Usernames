@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import os
+import asyncio
 import requests
 
 TWITCH_AUTH = os.environ['TWITCH_AUTH']
